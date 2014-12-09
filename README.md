@@ -31,19 +31,32 @@ testNewton.py:
 Contains several tests for newton.py
 
 testLinear: To test linear polynomial
+
 testQuadraticbad: Test quadratic with both roots equal, so slope is 0 at the root.
+
 testQuadraticgood: Test quadratic with distinct roots.
+
 test_np: Testing with a numpy array instead of matrix.
+
 test_2d: Testing a 2D function.
+
 test_analytic_2d: Testing a 2d function with analytic Jacobian given.
+
 test_analytic_1d: Testing a 1d function with analytic Jacobian given.
+
 test_radius: Testing that the code throws an exception if the approximated root is not within a radius r of the initial guess.
+
 test_radius1: Testing that the code throws an exception if the approximated root is not within a radius r of the initial guess.
+
 test_analytic_numeric_1d: Testing that the analytic Jacobian is more accurate than the approximate one.
 test_nonlinear: Testing a 2d nonlinear function.
+
 test_3d: Testing a 3d function.
+
 testNewtonStep: Testing that a single step of Newton performs correctly.
+
 testNewtonStep1: Testing that a single step of Newton performs correctly.
+
 testConverge: Test that the code throws an exception if it doesn't converge in the given number of iterations.
 
 ________________
@@ -51,8 +64,13 @@ ________________
 testFunctions:
 
 testApproxJacobian1: Testing that the approximate jacobian is correct for a 1d function.
+
 testApproxJacobian2: Testing that the approximate jacobian is correct for a 2d function.
+
 testApproxJacobian3: Testing that the approximate jacobian is correct for a 3d function.
+
 testPolynomial: Test the Polynomial class.
+
 testAnalytic: Test that analytic Jacobian gives the correct result by comparing with the
 approximate Jacobian.
+

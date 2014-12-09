@@ -9,8 +9,11 @@ f(x) = 0 using Newton Raphson method. Optional arguments are
 
 tol: tolerance, iterate until |f(x)| < tol
 maxiter: maximum number of iterations
+
 dx: step size to compute the approximate Jacobian
+
 Df: The analytic Jacobian. If not provided, the approximate Jacobian is used.
+
 r: If the approximate root does not lie within a radius r of the initial guess x0, an exception is raised. i.e. if || x_k - x0 || > r
 
 A warning is given if the slope of the function is close to zero, because convergence is very slow or not possible in this case, for example if we start our initial guess at a stationary point.
